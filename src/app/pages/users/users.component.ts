@@ -1,13 +1,14 @@
-import { Component, inject, ViewChild } from '@angular/core';
-import { UserListComponent } from '../../components/user/user-list/user-list.component';
-import { UserFormComponent } from '../../components/user/user-from/user-form.component';
-import { LoaderComponent } from '../../components/loader/loader.component';
-import { ModalComponent } from '../../components/modal/modal.component';
-import { PaginationComponent } from '../../components/pagination/pagination.component';
-import { UserService } from '../../services/user.service';
-import { ModalService } from '../../services/modal.service';
-import { FormBuilder, Validators } from '@angular/forms';
-import { IUser } from '../../interfaces';
+import { Component, inject, ViewChild } from "@angular/core";
+import { FormBuilder, Validators } from "@angular/forms";
+import { LoaderComponent } from "../../components/loader/loader.component";
+import { ModalComponent } from "../../components/modal/modal.component";
+import { PaginationComponent } from "../../components/pagination/pagination.component";
+import { UserFormComponent } from "../../components/user/user-from/user-form.component";
+import { UserListComponent } from "../../components/user/user-list/user-list.component";
+import { IUser } from "../../interfaces";
+import { ModalService } from "../../services/modal.service";
+import { UserService } from "../../services/user.service";
+
 
 @Component({
   selector: 'app-users',

@@ -1,13 +1,11 @@
 import { Component, inject, Input, ViewChild, OnInit, Output, EventEmitter, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { NgbModal, NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
-import { LoaderComponent } from '../loader/loader.component';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-modal',
   standalone: true,
   imports: [
-    LoaderComponent,
     CommonModule
   ],
   templateUrl: './modal.component.html',
